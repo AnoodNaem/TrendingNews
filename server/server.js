@@ -8,10 +8,10 @@ const axios = require('axios');
 const app=express();
 const port=3001;
 const corsOptions={
-    origin:"http://localhost:3000", trending-news-gules.vercel.app
+    origin:"http://localhost:3000",
 };
 
-app.use(cors({origin:corsOptions}));
+app.use(cors(corsOptions));
 app.use(bodyParser.json());
 
 
